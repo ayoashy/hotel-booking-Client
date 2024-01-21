@@ -8,8 +8,14 @@ const Header = () => {
   return (
     <div className="bg-blue-800 py-6">
       <div className="container mx-auto flex justify-between">
+        <span className="flex items-center">
+
+        
         <span className="text-3xl text-white font-bold tracking-tight">
           <Link to="/">Tranqil Travels</Link>
+        </span>
+         <span><img src="/hotel-1880.svg" alt="" className="w-5 h-5 ml-4"/></span>
+
         </span>
         <span className="flex space-x-2">
           {isLoggedIn ? (
